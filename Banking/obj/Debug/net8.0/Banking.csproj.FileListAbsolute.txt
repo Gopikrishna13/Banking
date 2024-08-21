@@ -12,3 +12,4 @@ C:\Users\acer\Desktop\Banking System\Banking\obj\Debug\net8.0\refint\Banking.dll
 C:\Users\acer\Desktop\Banking System\Banking\obj\Debug\net8.0\Banking.pdb
 C:\Users\acer\Desktop\Banking System\Banking\obj\Debug\net8.0\Banking.genruntimeconfig.cache
 C:\Users\acer\Desktop\Banking System\Banking\obj\Debug\net8.0\ref\Banking.dll
+C:\Users\acer\Desktop\Banking System\Banking\obj\Debug\net8.0\Banking.sourcelink.json

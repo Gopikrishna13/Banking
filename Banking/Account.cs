@@ -3,7 +3,7 @@ using System;
 namespace Banking{
     public class Account{
         public string accountNumber{get;set;}
-        public double balance{get;set;}
+        public double balance{get;set;}=0;
 
         public int CustomerID{get;set;}
 

@@ -10,7 +10,12 @@ namespace Banking{
 
         public List<Account>accounts=new List<Account>();
 
-
+public Customer(string name,int id,string mail)
+{
+   CustomerName=name;
+   CustomerID=id;
+   Email=mail;
+}
         public void AddAccount(Account account)
         {
                accounts.Add(account);
