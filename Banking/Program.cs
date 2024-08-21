@@ -85,13 +85,42 @@ int response=0;
                   Console.Write("Enter Amount to Deposit: ");
                   double amount=double.Parse(Console.ReadLine());
 
-                  
+                  if(amount>0)
+                  {
+                    match_acc.balance=match_acc.balance+amount;
+                  Console.WriteLine($"{ match_acc.balance}");
+                  }else{
+                    Console.WriteLine("Deposit amount more than 0");
+                  }
+
+                 
 
              }else{
                 Console.WriteLine("Could not find Bank Details");
              }
 
              
+         }else if(response==4)
+         {
+             Console.Write("Enter Account Number");
+             string acc_number=Console.ReadLine();
+             Account match_acc=bank.FindAccount(acc_number);
+            
+             if( match_acc!=null)
+             {
+                  Console.Write("Enter Amount to Withdraw: ");
+                  double amount=double.Parse(Console.ReadLine());
+
+                  match_acc.balance=match_acc.balance-amount;
+                  Console.WriteLine($"{ match_acc.balance}");
+
+             }else{
+                Console.WriteLine("Could not find Bank Details");
+             }
+
+         }else if(response==5)
+         {
+            
          }
          
          else if (response==6)
